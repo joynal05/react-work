@@ -1,5 +1,7 @@
-import React from 'react';
+
+
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,12 +14,13 @@ const Header = () => {
                       </div>
                   </div>
                   <div className="col center">
-                      <div className="menu">
-                          <ul>
-                              <li>Home</li>
-                              <li>Home</li>
-                          </ul>
-                      </div>
+                    <div className="menu">
+                        <ul>
+                            <li>
+                                
+                            </li>
+                        </ul>
+                    </div>
                   </div>
                   <div className="col right">
                       Works
