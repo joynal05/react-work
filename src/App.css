@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+.col{
+    flex-grow: 1;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
