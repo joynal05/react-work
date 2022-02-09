@@ -1,7 +1,6 @@
-
-
-import './Header.css'
 import { Link } from 'react-router-dom';
+import './Header.css';
+
 
 const Header = () => {
   return (
@@ -17,7 +16,8 @@ const Header = () => {
                     <div className="menu">
                         <ul>
                             <li>
-                                
+                                <Link to="/">hello</Link>
+                                <Link to="/about">about</Link>
                             </li>
                         </ul>
                     </div>
